@@ -25,7 +25,7 @@ export const sender = async () => {
       `-# The next message will be sent in <t:${nextUnix}:R>`,
     ];
     await channel.send(msgLines.join('\n'));
-    await wait(1000 * 60 * 60);
+    await wait(next);
     return sender();
   } else {
     console.warn("This channel isn't text based.");
