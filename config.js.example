@@ -1,0 +1,11 @@
+export const config = {
+  /** Account Token */
+  token: '',
+  /** Guild configs */
+  guild: {
+    /** Channel ID */
+    channelId: '1416061047252713569',
+  },
+  /** Randomize delay to impersonate a legitimate account  */
+  randomize: true,
+};
